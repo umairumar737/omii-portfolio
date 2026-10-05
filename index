@@ -1,1 +1,239 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Umair Umar — Full Stack Developer building modern, responsive and user-friendly web experiences.">
+  <meta name="author" content="Umair Umar">
+  <title>Umair Umar | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <header class="site-header" id="header">
+    <a class="logo" href="#home">Umair Umar<span>.</span></a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">FULL STACK DEVELOPER</p>
+        <h1>Hi, I'm <span>Umair Umar</span></h1>
+        <h2>Full Stack Developer</h2>
+        <p class="lead">I build modern, responsive and user-friendly web experiences with clean code, practical functionality and polished interfaces.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#contact">Hire Me</a>
+          <a class="btn secondary" href="#contact">Let's Talk</a>
+        </div>
+        <div class="quick-links">
+          <a href="mailto:uu2767700@gmail.com" aria-label="Email">✉</a>
+          <a href="tel:+923207571737" aria-label="Phone">☎</a>
+          <a href="#projects" aria-label="Projects">↗</a>
+        </div>
+      </div>
+      <div class="hero-visual reveal delay-1">
+        <div class="glow"></div>
+        <div class="photo-frame">
+          <img src="assets/profile-full.jpg" alt="Umair Umar, Full Stack Developer">
+        </div>
+        <div class="floating-card card-one"><strong>PHP</strong><span>Development</span></div>
+        <div class="floating-card card-two"><strong>WordPress</strong><span>Solutions</span></div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Building <span>useful digital experiences</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-photo reveal">
+          <div class="photo-frame small">
+            <img src="assets/profile-full.jpg" alt="Umair Umar">
+          </div>
+        </div>
+        <div class="about-content reveal delay-1">
+          <h3>Full Stack Developer & WordPress Specialist</h3>
+          <p>I am a web developer focused on building reliable, responsive and user-friendly websites and web functionality. My experience includes PHP development, WordPress development and custom WordPress plugin development.</p>
+          <p>I have worked in both software-house and marketing-agency environments, handling development tasks, technical project work and WordPress-focused functionality.</p>
+          <div class="about-facts">
+            <div><span>Location</span><strong>Okara, Punjab, Pakistan</strong></div>
+            <div><span>Email</span><strong>uu2767700@gmail.com</strong></div>
+            <div><span>Speciality</span><strong>PHP · WordPress · Web Development</strong></div>
+            <div><span>Focus</span><strong>Responsive & practical web solutions</strong></div>
+          </div>
+          <a class="btn primary" href="assets/Umair-Umar-CV.pdf" download>Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey" id="experience">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY JOURNEY</p>
+        <h2>Education <span>& Experience</span></h2>
+      </div>
+      <div class="journey-grid">
+        <div>
+          <h3 class="column-title">🎓 Education</h3>
+          <article class="timeline-card reveal">
+            <span>2020 – 2022</span>
+            <h4>Intermediate (FSc)</h4>
+            <p>Punjab College Okara</p>
+          </article>
+          <article class="timeline-card reveal">
+            <span>2018 – 2020</span>
+            <h4>Matric (Science)</h4>
+            <p>Govt. High School Ashraf-ul-Madaris, Okara</p>
+          </article>
+        </div>
+        <div>
+          <h3 class="column-title">💼 Experience</h3>
+          <article class="timeline-card reveal">
+            <span>Current</span>
+            <h4>Web Developer — Digiprom</h4>
+            <p>Working as a Web Developer at a marketing agency, handling web development tasks and technical project work.</p>
+          </article>
+          <article class="timeline-card reveal">
+            <span>1.5 Years</span>
+            <h4>PHP Developer — Pluginsilo</h4>
+            <p>Worked in a software-house environment and contributed to web development and technical project work.</p>
+          </article>
+          <article class="timeline-card reveal">
+            <span>1 Year</span>
+            <h4>WordPress Plugin Developer — Pluginsilo</h4>
+            <p>Worked on WordPress plugin development using PHP and maintained WordPress-focused functionality.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-heading reveal">
+        <p class="eyebrow">MY SKILLS</p>
+        <h2>Technical <span>expertise</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-panel reveal">
+          <h3>Development Skills</h3>
+          <div class="skill"><div><span>PHP</span><b>90%</b></div><i><em style="width:90%"></em></i></div>
+          <div class="skill"><div><span>WordPress</span><b>95%</b></div><i><em style="width:95%"></em></i></div>
+          <div class="skill"><div><span>Plugin Development</span><b>90%</b></div><i><em style="width:90%"></em></i></div>
+          <div class="skill"><div><span>HTML / CSS</span><b>90%</b></div><i><em style="width:90%"></em></i></div>
+          <div class="skill"><div><span>JavaScript</span><b>80%</b></div><i><em style="width:80%"></em></i></div>
+        </div>
+        <div class="skill-panel reveal delay-1">
+          <h3>Web & CMS</h3>
+          <div class="tech-chips">
+            <span>WordPress</span><span>Elementor</span><span>WooCommerce</span>
+            <span>ACF</span><span>PHP</span><span>JavaScript</span>
+            <span>HTML5</span><span>CSS3</span><span>Responsive Design</span>
+            <span>Custom Plugins</span><span>SEO Implementation</span><span>Git</span>
+          </div>
+          <p class="skill-note">Focused on turning design requirements into responsive, maintainable and functional websites.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-heading reveal">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Latest <span>Projects</span></h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <div class="project-art art-blue"><span>BITSGROOVE</span><small>Courier & Logistics</small></div>
+          <div class="project-body"><p>WORDPRESS / ELEMENTOR</p><h3>BitsGroove</h3><span>Responsive logistics website focused on modern UI, service presentation and lead-generation sections.</span></div>
+        </article>
+        <article class="project-card reveal delay-1">
+          <div class="project-art art-gold"><span>VINE TAXIS</span><small>Luxury Transfers</small></div>
+          <div class="project-body"><p>WORDPRESS / ELEMENTOR</p><h3>Vine Taxis</h3><span>Luxury taxi and transfer website with premium visual styling, responsive layouts and SEO-focused page structure.</span></div>
+        </article>
+        <article class="project-card reveal delay-2">
+          <div class="project-art art-orange"><span>WALI BAZAAR</span><small>E-Commerce</small></div>
+          <div class="project-body"><p>WOOCOMMERCE / WORDPRESS</p><h3>Wali Bazaar</h3><span>E-commerce store setup with product management, policy pages and online-store functionality.</span></div>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-art art-green"><span>ALL BMI CALCULATOR</span><small>Health Tools</small></div>
+          <div class="project-body"><p>WORDPRESS / CUSTOM TOOLS</p><h3>All BMI Calculator</h3><span>Health-focused calculator platform with custom calculators, health education pages and responsive implementation.</span></div>
+        </article>
+        <article class="project-card reveal delay-1">
+          <div class="project-art art-purple"><span>CELINE FURNISHINGS</span><small>Furniture E-Commerce</small></div>
+          <div class="project-body"><p>WORDPRESS / WOOCOMMERCE</p><h3>Celine Furnishings</h3><span>Premium furniture website work covering page design, content updates, imagery and SEO-focused improvements.</span></div>
+        </article>
+        <article class="project-card reveal delay-2">
+          <div class="project-art art-cyan"><span>PLUGIN DEVELOPMENT</span><small>PHP / WORDPRESS</small></div>
+          <div class="project-body"><p>PHP / WORDPRESS</p><h3>Custom Plugin Development</h3><span>Custom WordPress plugin development and maintenance for calculator and website functionality.</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section services">
+      <div class="section-heading reveal">
+        <p class="eyebrow">WHAT I DO</p>
+        <h2>From idea to <span>working website</span></h2>
+      </div>
+      <div class="service-grid">
+        <div class="service-card reveal"><b>01</b><h3>Web Development</h3><p>Modern, responsive websites built around clear structure and practical functionality.</p></div>
+        <div class="service-card reveal delay-1"><b>02</b><h3>WordPress Development</h3><p>Custom WordPress builds, Elementor implementation, WooCommerce and content-driven websites.</p></div>
+        <div class="service-card reveal delay-2"><b>03</b><h3>Plugin Development</h3><p>PHP-based WordPress plugins and custom functionality designed for real project requirements.</p></div>
+        <div class="service-card reveal"><b>04</b><h3>Responsive UI</h3><p>Layouts refined across desktop, tablet and mobile for a consistent user experience.</p></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="section-heading reveal">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Let's build something <span>great</span></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-copy reveal">
+          <h3>Have a project in mind?</h3>
+          <p>Tell me what you are building, what you need, and where you want to take it. I’ll get back to you through email.</p>
+          <a class="contact-line" href="mailto:uu2767700@gmail.com">✉ <span>uu2767700@gmail.com</span></a>
+          <a class="contact-line" href="tel:+923207571737">☎ <span>+92 320 7571737</span></a>
+          <div class="location">📍 Okara, Punjab, Pakistan</div>
+        </div>
+        <form class="contact-form reveal delay-1" id="contactForm">
+          <div class="form-row">
+            <input required name="name" type="text" placeholder="Full Name">
+            <input required name="email" type="email" placeholder="Email Address">
+          </div>
+          <div class="form-row">
+            <input name="phone" type="tel" placeholder="Phone Number">
+            <input required name="subject" type="text" placeholder="Email Subject">
+          </div>
+          <textarea required name="message" rows="7" placeholder="Your Message"></textarea>
+          <button class="btn primary" type="submit">Send Message</button>
+          <p class="form-note">This form opens your email app with the message prepared for Umair.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <a class="logo" href="#home">Umair Umar<span>.</span></a>
+      <p>© <span id="year"></span> Umair Umar. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
